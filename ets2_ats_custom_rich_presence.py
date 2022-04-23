@@ -35,9 +35,9 @@ def start():
     game_data = raw_data["game"]
     if game_data["gameName"]:
         if game_data["gameName"] == "ETS2":
-            client_id = "ETS2_client_id"  # App client ID from discord developer portal
+            client_id = "966999147674734652"  # App client ID from discord developer portal
         elif game_data["gameName"] == "ATS":
-            client_id = "ATS_client_id"  # App client ID from discord developer portal
+            client_id = "966999147674734652"  # App client ID from discord developer portal
         print(f'{game_data["gameName"]} connected...')
         run(client_id)
     else:
